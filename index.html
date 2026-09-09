@@ -77,13 +77,60 @@
             </div>
         </section>
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>Software Development Projects</h2>
+            <div class="project">
+                <h3>CV Builder Application (React)</h3>
+                <p>Architected a multi-step form application for professional data management. <br>
+                    <a href="https://github.com/kanykeizulumova/CV-Application" target="_blank">View Code on GitHub</a>
+                </p>
+            </div>
+            <div class="project">
+                <h3>Data Structure Implementations (JS)</h3>
+                <p>Developed custom classes for Binary Search Trees and Linked Lists, optimizing search and traversal
+                    algorithms. <br>
+                    <a href="https://github.com/kanykeizulumova/Project-Binary-Search-Trees" target="_blank">View Code
+                        on GitHub</a>
+                </p>
+            </div>
+            <div class="project">
+                <h3>Screeps Automation (JS)</h3>
+                <p>Engineered automated scripts for resource management in a programmable MMO.</p>
+            </div>
         </section>
         <section id="code-example">
             <h2>Code Example</h2>
+            <p>Detect Pangram:</p>
+            <pre><code>
+ function isPangram(string){
+    let str = string.toLowerCase();
+      const alhp = "abcdefghijklmnopqrstuvwxyz";
+        for (let i = 0; i < alhp.length; i++) {
+           if (str.indexOf(alhp[i]) == -1) {
+                return false;
+                    }
+            }
+               return true;
+        }
+            </code></pre>
         </section>
         <section id="education">
-            <h2>Education</h2>
+            <h2>Education & Languages</h2>
+            <div class="edu-lang-grid">
+                <div class="education">
+                    <ul>
+                        <li><strong>Manas University:</strong> Bachelor's Degree | 2012 – 2017</li>
+                        <li><strong>The Odin Project:</strong> Full Stack Path | 2025 – Present</li>
+                        <li><strong>Certifications:</strong> Kanban (KMP I), Management 3.0</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <ul>
+                        <li><strong>English:</strong> B2 (Upper-Intermediate)</li>
+                        <li><strong>Russian/Kyrgyz:</strong> Native/Fluent</li>
+                        <li><strong>Turkish:</strong> C1 (Advanced)</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
