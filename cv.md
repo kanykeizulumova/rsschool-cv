@@ -2,6 +2,10 @@
 **Frontend Developer**
 
 ## Contact Information
+- **Email:** [zulumova.k@gmail.com](mailto:zulumova.k@gmail.com)
+- **Phone:** [+996 559 070 347](tel:+996559070347)
+- **Discord:** [@kanykeizulumova](https://discord.com/users/1451920453068259391)
+- **GitHub:** [kanykeizulumova](https://github.com/kanykeizulumova)
 
 ---
 
