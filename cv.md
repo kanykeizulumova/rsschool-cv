@@ -1,6 +1,8 @@
 # Kanykei Zulumova
 **Frontend Developer**
 
+![Kanykei Zulumova](https://avatars.githubusercontent.com/u/214987223?v=4)
+
 ## Contact Information
 - **Email:** [zulumova.k@gmail.com](mailto:zulumova.k@gmail.com)
 - **Phone:** [+996 559 070 347](tel:+996559070347)
@@ -42,10 +44,20 @@ Detail-oriented Frontend Developer with a strong background in operational manag
 
 ## Software Development Projects
 
+### [CV Builder Application (React) ](https://github.com/kanykeizulumova/CV-Application) | *Feb 2026*
+- Architected a multi-step form application using React components for professional data management.
+- Implemented real-time preview logic and complex state management for dynamic user inputs.
+
+### [Data Structure Implementations (JavaScript) ](https://github.com/kanykeizulumova/Project-Binary-Search-Trees) | *Dec 2025*
+- Developed custom classes for Binary Search Trees and Linked Lists, optimizing search and traversal algorithms.
+
+### Screeps Automation (JS) | *Sep 2025 – Present*
+- Engineered automated scripts for resource management and unit AI in a programmable MMO environment to refine complex logic skills.
+
 ---
 
 ## Code Example
-Detect Pangram:
+[Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048/javascript):
 
 ```javascript
 function isPangram(string) {
