@@ -10,14 +10,33 @@
 ---
 
 ## Summary
+Detail-oriented Frontend Developer with a strong background in operational management and process optimization. Transitioning from a 7-year career in logistics management to software engineering, bringing a unique blend of technical skills in React/JavaScript and advanced expertise in Kanban systems and Management 3.0. Proven ability to build efficient workflows, analyze complex data sets, and lead collaborative teams to achieve high-impact results.
 
 ---
 
 ## Technical Skills
+- **Frontend:** JavaScript (ES6+), React.js, HTML5, CSS3
+- **Tools & Architecture:** Webpack, Vite, Git/GitHub, DOM Manipulation
+- **Data Structures:** Logic implementation for HashMaps, Linked Lists, and Binary Search Trees
+- **Methodologies:** Kanban System Design (KMP), Management 3.0, Agile, Business Process Modeling
+- **Soft Skills:** Analytical Thinking, Team Leadership, Stakeholder Management, Rapid Learning
+
 
 ---
 
 ## Professional Experience
+### Head of Operations
+**VED Partner / Exporter** | Bishkek, Kyrgyzstan | *Jan 2020 – Jan 2025*
+- **Process Engineering:** Established the Bishkek regional office, designing core business processes and operational schemes from the ground up.
+- **Optimization:** Applied analytical thinking to streamline customer and supplier interactions, improving delivery and negotiation efficiency.
+- **Leadership:** Recruited, trained, and managed a team of operators and logisticians, fostering a culture of transparency and collaboration.
+
+### Account Manager
+**Jet Logistic** | Bishkek, Kyrgyzstan | *Aug 2017 – Dec 2019*
+- Managed the full sales lifecycle, from lead generation and contract negotiation to closing high-value logistics deals.
+- Analyzed client needs to provide tailored commercial proposals and maintain high service standards.
+- Maintained and strengthened relationships with key clients, ensuring high retention rates and repeat business.
+
 
 ---
 
