@@ -22,6 +22,23 @@
 ---
 
 ## Code Example
+Detect Pangram:
+
+```javascript
+function isPangram(string) {
+  const str = string.toLowerCase();
+  const alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+  for (let i = 0; i < alphabet.length; i++) {
+    if (str.indexOf(alphabet[i]) === -1) {
+      return false;
+    }
+  }
+
+  return true;
+}
+```
+
 
 ## Education & Certifications
 - **Manas University:** Bachelor's Degree in General Management | Bishkek, Kyrgyzstan | 2012 – 2017
