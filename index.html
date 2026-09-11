@@ -56,6 +56,108 @@
                 </ul>
             </section>
         </aside>
+
+        <div class="main-wrapper">
+            <header class="header">
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+                <h1>Kanykei Zulumova</h1>
+                <p class="subtitle">Frontend Developer</p>
+            </header>
+
+            <main class="content">
+                <section id="education">
+                    <h2>🎓 Education</h2>
+                    <div class="timeline-item">
+                        <div class="date">(2012 – 2017)</div>
+                        <h3>MANAS UNIVERSITY</h3>
+                        <p>Bachelor's Degree in General Management</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">(2025 – Present)</div>
+                        <h3>THE ODIN PROJECT</h3>
+                        <p>Full Stack Path</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">(2024)</div>
+                        <h3>CERTIFICATIONS</h3>
+                        <p>Kanban System Design (KMP I), Management 3.0</p>
+                    </div>
+                </section>
+
+                <section id="experience">
+                    <h2>💼 Experience</h2>
+                    <div class="timeline-item">
+                        <div class="date">(Jan 2020 – Jan 2025)</div>
+                        <h3>HEAD OF OPERATIONS</h3>
+                        <p class="company">VED Partner / Exporter</p>
+                        <ul>
+                            <li>Established the Bishkek regional office, designing core business processes from the
+                                ground up.</li>
+                            <li>Streamlined customer and supplier interactions, improving delivery efficiency.</li>
+                            <li>Recruited, trained, and managed a team of operators and logisticians.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">(Aug 2017 – Dec 2019)</div>
+                        <h3>ACCOUNT MANAGER</h3>
+                        <p class="company">Jet Logistic</p>
+                        <ul>
+                            <li>Managed the full sales lifecycle and closing high-value logistics deals.</li>
+                            <li>Analyzed client needs to provide tailored commercial proposals.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <h2>💻 Projects</h2>
+                    <div class="timeline-item">
+                        <h3>CV Builder Application (React)</h3>
+                        <p>Architected a multi-step form application for professional data management. <a
+                                href="https://github.com/kanykeizulumova/CV-Application" target="_blank">GitHub</a></p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Data Structure Implementations (JS)</h3>
+                        <p>Developed custom classes for Binary Search Trees and Linked Lists. <a
+                                href="https://github.com/kanykeizulumova/Project-Binary-Search-Trees"
+                                target="_blank">GitHub</a></p>
+                    </div>
+                </section>
+
+                <section id="code-example">
+                    <h2>📝 Code Example</h2>
+                    <p><a href="https://www.codewars.com/kata/545cedaa9943f7fe7b000048/javascript"
+                            target="_blank">Detect Pangram:</a></p>
+                    <pre><code>function isPangram(string) {
+    let str = string.toLowerCase();
+    const alhp = "abcdefghijklmnopqrstuvwxyz";
+    for (let i = 0; i &lt; alhp.length; i++) {
+        if (str.indexOf(alhp[i]) == -1) return false;
+    }
+    return true;
+}</code></pre>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <a class="github" href="https://github.com/kanykeizulumova">
+                        <img class="github-icon" src="github.svg" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://rs.school/courses/javascript-ru">
+                        <img class="rsschool-icon" src="rs-school-logo.svg" alt="RS School">
+                    </a>
+                    <span>©️ 2026</span>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 
