@@ -10,141 +10,53 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="header-text">
-                    <h1>Kanykei Zulumova</h1>
-                    <p class="subtitle">Frontend Developer</p>
-                    <ul class="contacts">
-                        <li>Email: <a href="mailto:zulumova.k@gmail.com">zulumova.k@gmail.com</a></li>
-                        <li>Phone: <a href="tel:+996559070347">+996&nbsp;559&nbsp;070&nbsp;347</a></li>
-                        <li>Discord: <a href="https://discord.com/users/1451920453068259391">zulumova_k</a></li>
-                        <li>GitHub: <a href="https://github.com/kanykeizulumova" target="_blank">kanykeizulumova</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header-photo">
-                    <img src="avatar.svg" alt="Kanykei Zulumova - Ninja Avatar" class="photo">
-                </div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="summary">
-            <h2>Summary</h2>
-            <p>Detail-oriented Frontend Developer with a strong background in operational management and process
-                optimization. Transitioning from a 7-year career in logistics management to software engineering,
-                bringing a unique blend of technical skills in React/JavaScript and advanced expertise in Kanban systems
-                and Management 3.0. Proven ability to build efficient workflows, analyze complex data sets, and lead
-                collaborative teams to achieve high-impact results.</p>
-        </section>
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Frontend:</strong> JavaScript (ES6+), React.js, HTML5, CSS3</li>
-                <li><strong>Tools & Architecture:</strong> Webpack, Vite, Git/GitHub, DOM Manipulation</li>
-                <li><strong>Data Structures:</strong> Logic implementation for HashMaps, Linked Lists, and Binary Search
-                    Trees
-                </li>
-                <li><strong>Methodologies:</strong> Kanban System Design (KMP), Management 3.0, Agile, Business Process
-                    Modeling
-                </li>
-                <li><strong>Soft Skills:</strong> Analytical Thinking, Team Leadership, Stakeholder Management, Rapid
-                    Learning
-                </li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <div class="job">
-                <h3>Head of Operations — VED Partner / Exporter</h3>
-                <p class="date">Jan 2020 – Jan 2025 | Bishkek, Kyrgyzstan</p>
-                <ul>
-                    <li>Established the Bishkek regional office, designing core business processes from the ground up.
+    <div class="cv-container">
+        <aside class="sidebar">
+
+            <section id="summary">
+                <h2>👤 About Me</h2>
+                <p>Detail-oriented Frontend Developer with a strong background in operational management and process
+                    optimization. Transitioning from a 7-year career in logistics management to software engineering,
+                    bringing a unique blend of technical skills in React/JavaScript and advanced expertise in Kanban
+                    systems
+                    and Management 3.0. Proven ability to build efficient workflows, analyze complex data sets, and lead
+                    collaborative teams to achieve high-impact results.</p>
+            </section>
+
+            <section id="contacts">
+                <h2>📞 Contact</h2>
+                <ul class="contacts-list">
+                    <li><strong>Email:</strong> <a href="mailto:zulumova.k@gmail.com">zulumova.k@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+996559070347">+996 559 070 347</a></li>
+                    <li><strong>Discord:</strong> <a href="https://discord.com/users/1451920453068259391">zulumova_k</a>
                     </li>
-                    <li>Streamlined customer and supplier interactions, improving delivery efficiency.</li>
-                    <li>Recruited, trained, and managed a team of operators and logisticians.</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/kanykeizulumova"
+                            target="_blank">kanykeizulumova</a></li>
                 </ul>
-            </div>
-            <div class="job">
-                <h3>Account Manager — Jet Logistic</h3>
-                <p class="date">Aug 2017 – Dec 2019 | Bishkek, Kyrgyzstan</p>
-                <ul>
-                    <li>Managed the full sales lifecycle and closing high-value logistics deals.</li>
-                    <li>Analyzed client needs to provide tailored commercial proposals.</li>
+            </section>
+
+            <section id="skills">
+                <h2>⚙️ Skills</h2>
+                <ul class="skills-list">
+                    <li>JavaScript (ES6+), React.js</li>
+                    <li>HTML5, CSS3</li>
+                    <li>Webpack, Vite, Git/GitHub</li>
+                    <li>DOM Manipulation</li>
+                    <li>Data Structures</li>
+                    <li>Kanban (KMP), Management 3.0</li>
                 </ul>
-            </div>
-        </section>
-        <section id="projects">
-            <h2>Software Development Projects</h2>
-            <div class="project">
-                <h3>CV Builder Application (React)</h3>
-                <p>Architected a multi-step form application for professional data management. <br>
-                    <a href="https://github.com/kanykeizulumova/CV-Application" target="_blank">View Code on GitHub</a>
-                </p>
-            </div>
-            <div class="project">
-                <h3>Data Structure Implementations (JS)</h3>
-                <p>Developed custom classes for Binary Search Trees and Linked Lists, optimizing search and traversal
-                    algorithms. <br>
-                    <a href="https://github.com/kanykeizulumova/Project-Binary-Search-Trees" target="_blank">View Code
-                        on GitHub</a>
-                </p>
-            </div>
-            <div class="project">
-                <h3>Screeps Automation (JS)</h3>
-                <p>Engineered automated scripts for resource management in a programmable MMO.</p>
-            </div>
-        </section>
-        <section id="code-example">
-            <h2>Code Example</h2>
-            <p>Detect Pangram:</p>
-            <pre><code>
- function isPangram(string){
-    let str = string.toLowerCase();
-      const alhp = "abcdefghijklmnopqrstuvwxyz";
-        for (let i = 0; i < alhp.length; i++) {
-           if (str.indexOf(alhp[i]) == -1) {
-                return false;
-                    }
-            }
-               return true;
-        }
-            </code></pre>
-        </section>
-        <section id="education">
-            <h2>Education & Languages</h2>
-            <div class="edu-lang-grid">
-                <div class="education">
-                    <ul>
-                        <li><strong>Manas University:</strong> Bachelor's Degree | 2012 – 2017</li>
-                        <li><strong>The Odin Project:</strong> Full Stack Path | 2025 – Present</li>
-                        <li><strong>Certifications:</strong> Kanban (KMP I), Management 3.0</li>
-                    </ul>
-                </div>
-                <div class="languages">
-                    <ul>
-                        <li><strong>English:</strong> B2 (Upper-Intermediate)</li>
-                        <li><strong>Russian/Kyrgyz:</strong> Native/Fluent</li>
-                        <li><strong>Turkish:</strong> C1 (Advanced)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <a class="github" href="https://github.com/kanykeizulumova">
-                <img class="github-icon" src="github.svg">
-                <p>Visit my GitHub </p>
-            </a>
-            <a href="https://rs.school/courses/javascript-ru">
-                <img class="rsschool-icon" src="rs-school-logo.svg">
-            </a>
-            <p>©️ 2026</p>
-        </div>
-    </footer>
+            </section>
+
+            <section id="languages">
+                <h2>🌍 Language</h2>
+                <ul class="skills-list">
+                    <li>English (B2)</li>
+                    <li>Russian/Kyrgyz (Native)</li>
+                    <li>Turkish (C1)</li>
+                </ul>
+            </section>
+        </aside>
+    </div>
 </body>
 
 </html>
