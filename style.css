@@ -144,3 +144,28 @@ a:hover {
     margin-top: 5px;
     color: #d1d1d1;
 }
+
+
+.navigation {
+    align-self: flex-end;
+    margin-bottom: auto;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    letter-spacing: 1px;
+}
+
+.navigation a:hover {
+    opacity: 1;
+}
