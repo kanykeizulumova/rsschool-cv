@@ -251,6 +251,8 @@ a:hover {
     padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
     font-size: 13px;
     border: 1px solid #ddd;
     margin-top: 10px;
@@ -284,4 +286,70 @@ a:hover {
 
 .rsschool-icon {
     height: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .main-wrapper {
+        width: 100%;
+    }
+
+    .sidebar {
+        background: #e3e5e6;
+    }
+
+    .header {
+        margin-top: 0;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .navigation {
+        position: static;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .header .subtitle {
+        font-size: 15px;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+
+    .sidebar {
+        padding: 0 20px 30px;
+    }
+
+    .photo {
+        width: 130px;
+        height: 130px;
+        margin: 35px auto 20px;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
