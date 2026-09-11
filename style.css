@@ -255,3 +255,33 @@ a:hover {
     border: 1px solid #ddd;
     margin-top: 10px;
 }
+
+
+.footer {
+    padding: 20px 50px;
+    border-top: 1px solid #eee;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.rsschool-icon {
+    height: 25px;
+}
